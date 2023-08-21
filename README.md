@@ -1,2 +1,2 @@
 # Infnet-Java-Orientacao-Objetos
-Projeto Infnet - Pós Graduação - Orientação à objetos
+Projeto Infnet - Pós Graduação - Orientação à Objetos
