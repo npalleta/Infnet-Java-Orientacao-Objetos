@@ -29,7 +29,6 @@ public class ResponsavelTest {
         informacoes.add("Maria Tadeu");
         informacoes.add("Teste Teste");
         informacoes.add("Matemática");
-        informacoes.add("ABC");
 
         Assertions.assertThrows(ResponsavelException.class, () -> {
             responsavel.setInformacoesGerais(null);
@@ -40,7 +39,7 @@ public class ResponsavelTest {
         });
 
         Assertions.assertThrows(ResponsavelException.class, () -> {
-            responsavel.setInformacoesGerais(new ArrayList<>(informacoes.subList(0, 3)));
+            responsavel.setInformacoesGerais(new ArrayList<>(informacoes.subList(0, 2)));
         });
 
         Assertions.assertDoesNotThrow(() -> {
@@ -51,7 +50,7 @@ public class ResponsavelTest {
     @Test
     public void testRegistraProfessor() {
         String nomeResponsavel = "Maria Tadeu";
-        responsavel.registraProfessor(nomeResponsavel);
+        responsavel.registraResponsavel(nomeResponsavel);
         Assertions.assertEquals(nomeResponsavel, responsavel.getNomeResponsavel());
     }
 }

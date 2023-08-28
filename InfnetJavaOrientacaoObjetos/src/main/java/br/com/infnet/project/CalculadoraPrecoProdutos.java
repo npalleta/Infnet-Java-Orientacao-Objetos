@@ -52,7 +52,7 @@ public class CalculadoraPrecoProdutos {
 
     public void calculaDescontoPorProd() {
 
-     File arquivoProdutos = new File(this.nomeArquivoProdutos);
+        File arquivoProdutos = new File(this.nomeArquivoProdutos);
 
         try (BufferedReader arquivoEntrada = new BufferedReader(new FileReader(arquivoProdutos))) {
             Scanner scanner = new Scanner(arquivoEntrada);

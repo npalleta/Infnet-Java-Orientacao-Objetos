@@ -28,12 +28,12 @@ public class Responsavel extends Escola {
 
     @Override
     public void setInformacoesGerais(ArrayList<Object> informacoes) throws ResponsavelException {
-        if (informacoes == null || informacoes.size() != 4) {
+        if (informacoes == null || informacoes.size() != 3) {
             throw new ResponsavelException();
         }
         this.nomeResponsavel = String.valueOf(informacoes.get(0));
         this.dadosResponsavel.put("nome_responsavel", informacoes.get(1));
-        this.dadosResponsavel.put("nome_aluno", informacoes.get(1));
+        this.dadosResponsavel.put("nome_aluno", informacoes.get(2));
     }
 
     @Override
@@ -41,7 +41,7 @@ public class Responsavel extends Escola {
         return this.dadosResponsavel;
     }
 
-    public void registraProfessor(String nomeResponsavel) {
+    public void registraResponsavel(String nomeResponsavel) {
 
         ArrayList<Object> infoResponsavel = new ArrayList<>();
 

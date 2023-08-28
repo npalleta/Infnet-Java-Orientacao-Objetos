@@ -1,5 +1,7 @@
 package br.com.infnet.project;
 
+import static java.lang.System.out;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -17,6 +19,8 @@ public class Main {
             "Anderson Oliveira",
             214
         );
+
+        out.println();
 
         Aluno alunoFabio = new Aluno();
         Professor CamargoGeografia = new Professor();
