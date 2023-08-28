@@ -3,7 +3,7 @@
 Niky Lima
 
 ## Projeto da disciplina
-Tecnologia Java e Orientação à Objetos
+Tecnologia Java e Orientação à Objetos.
 
 ### Crie um projeto que organize as regras de negócio em seis classes da
 seguinte maneira:
