@@ -23,7 +23,6 @@ public class CalculadoraPrecoProdutos {
 
     private CalculadoraPrecoProdutos(String nomeArquivoProdutos, String nomeArquivoCalculado) {
         String[] diretorioPrincipal = {
-            "InfnetJavaOrientacaoObjetos",
             "src",
             "main",
             "resources",
@@ -35,8 +34,7 @@ public class CalculadoraPrecoProdutos {
                 diretorioPrincipal[0],
                 diretorioPrincipal[1],
                 diretorioPrincipal[2],
-                diretorioPrincipal[3],
-                diretorioPrincipal[4]
+                diretorioPrincipal[3]
             )
         );
         this.nomeArquivoCalculado = String.valueOf(
@@ -44,8 +42,7 @@ public class CalculadoraPrecoProdutos {
                 diretorioPrincipal[0],
                 diretorioPrincipal[1],
                 diretorioPrincipal[2],
-                diretorioPrincipal[3],
-                diretorioPrincipal[5]
+                diretorioPrincipal[4]
             )
         );
     }

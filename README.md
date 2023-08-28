@@ -49,3 +49,32 @@ repositório do git e informe o link no seu arquivo PDF e poste no Moodle.
 Utilize o seu nome para nomear o arquivo, identificando também a
 disciplina no seguinte formato:
 “nomedoaluno_nomedadisciplina_pd.PDF”.
+
+# Explicação
+
+**O Projeto desenvolvido por mim, foi baseado em um cadastro simples de aluno**
+*As convenções utilizadas foram escolhidas para que os envolvidos na vida escolar do aluno se apresentassem nos dados de um formulário de informação escolar.*
+
+### Comandos para excução do projeto:
+
+- Rodando os testes:
+
+```bash
+mvn clean test
+```
+
+- Executando a classe Main:
+
+
+```bash
+mvn exec:java -D"exec.mainClass"="br.com.infnet.project.Main"
+```
+
+**Atividade - Calculadora de Preço de Produto**
+*Para o desafio utilizando leitura e escrita em arquivos, a execução fica à caracter da classe CalculadoraPrecoProdutos.*
+- Basicamente, temos 3 atributos, nomeProduto, valor e percentual de desconto. Com esses dados é apresentado o valor de desconto no produto, alimentado pelo arquivo resources/produtos.txt.
+- O arquivo de saída é apresentado na pasta resources/ arquivo resultado_data_da_execução.txt.
+
+```bash
+mvn exec:java -D"exec.mainClass"="br.com.infnet.project.CalculadoraPrecoProdutos"
+```
