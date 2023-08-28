@@ -5,8 +5,7 @@ Niky Lima
 ## Projeto da disciplina
 Tecnologia Java e Orientação à Objetos.
 
-### Crie um projeto que organize as regras de negócio em seis classes da
-seguinte maneira:
+### Crie um projeto que organize as regras de negócio em seis classes da seguinte maneira:
 -  Uma classe mãe abstrata
 -  Três classes filhas
 -  Uma classe concreta sem mãe
