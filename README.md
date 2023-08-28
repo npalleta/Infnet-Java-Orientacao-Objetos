@@ -52,6 +52,10 @@ disciplina no seguinte formato:
 
 # Explicação
 
+- Projeto utilizando Java 11;
+- Apache Maven;
+- IDE: IntelliJ.
+
 **O Projeto desenvolvido por mim, foi baseado em um cadastro simples de aluno**
 *As convenções utilizadas foram escolhidas para que os envolvidos na vida escolar do aluno se apresentassem nos dados de um formulário de informação escolar.*
 
