@@ -101,7 +101,7 @@ public class CalculadoraPrecoProdutos {
     public static void main(String[] args) {
         CalculadoraPrecoProdutos calculadoraPrecoProd = new CalculadoraPrecoProdutos(
             "produtos.txt",
-            "resultado_" + dataAtual() + ".txt"
+            "resultado_" + CalculadoraPrecoProdutos.dataAtual() + ".txt"
         );
         calculadoraPrecoProd.calculaDescontoPorProd();
     }
