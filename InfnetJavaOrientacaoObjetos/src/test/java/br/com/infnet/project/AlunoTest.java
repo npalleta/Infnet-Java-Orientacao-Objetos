@@ -54,10 +54,16 @@ public class AlunoTest {
         informacoes.add("Texto Teste");
         informacoes.add(12345);
 
-        Assertions.assertThrows(AlunoException.class, () -> aluno.setInformacoesGerais(null));
-        Assertions.assertThrows(AlunoException.class, () -> aluno.setInformacoesGerais(new ArrayList<>()));
-        Assertions.assertThrows(AlunoException.class,
-                () -> aluno.setInformacoesGerais(new ArrayList<>(informacoes.subList(0, 4))));
+        Assertions.assertThrows(
+            AlunoException.class, () -> aluno.setInformacoesGerais(null)
+        );
+        Assertions.assertThrows(
+            AlunoException.class, () -> aluno.setInformacoesGerais(new ArrayList<>())
+        );
+        Assertions.assertThrows(
+            AlunoException.class,
+            () -> aluno.setInformacoesGerais(new ArrayList<>(informacoes.subList(0, 4)))
+        );
         Assertions.assertDoesNotThrow(() -> aluno.setInformacoesGerais(informacoes));
 
         try {

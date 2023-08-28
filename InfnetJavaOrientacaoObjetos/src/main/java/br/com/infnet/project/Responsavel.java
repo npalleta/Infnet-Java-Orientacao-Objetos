@@ -54,7 +54,7 @@ public class Responsavel extends Escola {
                 this.getInfomacoesGerais().forEach(
                     (key, value) -> out.printf("%s -> %s%n", key, value)
                 );
-             */
+            */
 
         } catch (NullPointerException nullEx) {
             err.printf(

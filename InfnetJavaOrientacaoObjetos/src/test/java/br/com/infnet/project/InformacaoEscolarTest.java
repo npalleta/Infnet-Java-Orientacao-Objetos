@@ -15,12 +15,13 @@ public class InformacaoEscolarTest {
         InformacaoEscolar informacaoEscolar = new InformacaoEscolar(aluno, professor, responsavel);
 
         informacaoEscolar.cadastraInfoEscolar(
-                "Maria Test 123",
-                "Apenas uma observação simples...",
-                "Júlio Test 123",
-                "Apenas uma observação simples...",
-                "Pai",
-                214);
+            "Maria Test 123",
+            "Apenas uma observação simples...",
+            "Júlio Test 123",
+            "Apenas uma observação simples...",
+            "Pai",
+            214
+        );
 
         assertEquals("Maria Test 123", aluno.getNomeAluno());
         assertEquals("Apenas uma observação simples...", aluno.getObservacao());

@@ -44,10 +44,18 @@ public class ProfessorTest {
         informacoes.add("Apenas uma observação simples...");
         informacoes.add(123);
 
-        Assertions.assertThrows(ProfessorException.class, () -> professor.setInformacoesGerais(null));
-        Assertions.assertThrows(ProfessorException.class, () -> professor.setInformacoesGerais(new ArrayList<>()));
-        Assertions.assertThrows(ProfessorException.class,
-                () -> professor.setInformacoesGerais(new ArrayList<>(informacoes.subList(0, 2))));
+        Assertions.assertThrows(
+            ProfessorException.class, () -> professor.setInformacoesGerais(null)
+        );
+        Assertions.assertThrows(
+            ProfessorException.class, () -> professor.setInformacoesGerais(new ArrayList<>())
+        );
+        Assertions.assertThrows(
+            ProfessorException.class,
+            () -> professor.setInformacoesGerais(
+                new ArrayList<>(informacoes.subList(0, 2))
+            )
+        );
         Assertions.assertDoesNotThrow(() -> professor.setInformacoesGerais(informacoes));
     }
 

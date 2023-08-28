@@ -75,7 +75,8 @@ public class CalculadoraPrecoProdutos {
                     writer.printf("Produto: %s%n", nomeProduto);
                     writer.printf("Preço: %s%n", preco);
                     writer.printf("desconto: %s%n", desconto);
-                    writer.printf("Valor Final: %s%n%n",
+                    writer.printf(
+                        "Valor Final: %s%n%n",
                         BigDecimal.valueOf(valorFinal).setScale(2, RoundingMode.HALF_UP)
                     );
                 }

@@ -5,7 +5,8 @@ import br.com.infnet.project.exceptions.AlunoException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import static java.lang.System.*;
+import static java.lang.System.err;
+import static java.lang.System.out;
 
 public class Aluno extends Escola {
 

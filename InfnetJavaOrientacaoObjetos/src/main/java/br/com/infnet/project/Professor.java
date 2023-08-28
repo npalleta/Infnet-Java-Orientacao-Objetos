@@ -78,7 +78,6 @@ public class Professor extends Escola {
                 );
             */
 
-
         } catch (NullPointerException nullEx) {
             err.printf(
                 "Os dados do professor não existem: %s%n",
