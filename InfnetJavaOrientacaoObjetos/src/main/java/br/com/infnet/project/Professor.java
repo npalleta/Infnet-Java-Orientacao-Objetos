@@ -55,6 +55,7 @@ public class Professor extends Escola {
         this.dadosProfessor.put("observacao", this.observacao);
         this.dadosProfessor.put("numero_sala", informacoes.get(2));
     }
+    
     @Override
     public HashMap<Object, Object> getInfomacoesGerais() {
         return this.dadosProfessor;
