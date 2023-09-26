@@ -21,7 +21,7 @@ public class CalculadoraPrecoProdutos {
     private String nomeArquivoProdutos;
     private String nomeArquivoCalculado;
 
-    private CalculadoraPrecoProdutos(String nomeArquivoProdutos, String nomeArquivoCalculado) {
+    public CalculadoraPrecoProdutos(String nomeArquivoProdutos, String nomeArquivoCalculado) {
         String[] diretorioPrincipal = {
             "src",
             "main",
